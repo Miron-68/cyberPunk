@@ -25,4 +25,27 @@
 
 body {
   font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --text-primary: #000;
+  --text-secondary: #52bedc;
+  --bg-body: #fff;
+  --bg-item: #000;
+  --yellow: #F8F200;
+  --blue-text: #52bedc;
+  --molile: 320px;
+  --tablet: 1024px;
+  --desctop:1920px;
+}
+
+.container {
+  min-width: var(--molile);
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+.header {
+  background-image: url(./images/header-mobile.jpg;);
 }/*# sourceMappingURL=index.css.map */

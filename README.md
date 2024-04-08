@@ -1,2 +1,2 @@
 # учебный проект cyberPunk
-[ссылка на деплой](https://miron-68.github.io/cyberPunk/)
+[ссылка на деплой](https://naumovn808.github.io/cyberPunk/)

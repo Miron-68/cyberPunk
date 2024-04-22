@@ -204,11 +204,12 @@ body {
 
     @media (min-width: 500px) {
       font-size: 62px;
+      margin-top: 50px;
     }
 
     @media (min-width: 1280px) {
-      max-width: 620px;
-      margin-left: 320px;
+      width: 600px;
+      padding-left: 150px;
     }
   }
 
@@ -272,10 +273,9 @@ body {
 .image-3 {
   grid-area: img3;
 }
-
 .form {
   background-color: var(--bg-item);
-  padding-top: 55px;
+  padding-top: 80px;
   position: relative;
 
   &::before {
@@ -310,6 +310,16 @@ body {
     color: #fff;
     font-family: "Archangelsk";
     margin-bottom: 25px;
+
+    @media (min-width: 780px) {
+      font-size: 62px;
+      margin-top: 50px;
+    }
+
+    @media (min-width: 1280px) {
+      width: 600px;
+      padding-left: 150px;
+    }
   }
 
   &__description {
@@ -317,8 +327,50 @@ body {
     font-size: 16px;
     line-height: 200%;
     color: #fff;
+
+    @media (min-width: 780px) {
+      font-size: 18px;
+    }
+
+    @media (min-width: 1280px) {
+      width: 900px;
+    }
   }
 }
+
+.form-images {
+  margin-top: 25px;
+
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    margin-right: -50px;
+  }
+
+  @media (min-width: 1280px) {
+    flex-direction: row;
+    margin-top: 250px;
+    margin-right: 0;
+    margin-left: -100px;
+  }
+}
+
+.pic1 {
+  @media (min-width: 1280px) {
+    margin-right: -100px;
+    z-index: 10;
+  }
+}
+
+.form-desc {
+  max-width: 460px;
+}
+
+form {
+  margin-top: 50px;
+  padding-bottom: 30px;
+}
+
 
 .form-image {
   margin-top: 25px;
@@ -446,7 +498,7 @@ label {
   height: 62px;
   position: absolute;
   top: -50px;
-  left: 0;  
+  left: 0;
+  @media (min-width: 768px) {
+  }
 }
-@media ()
-  
